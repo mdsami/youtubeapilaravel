@@ -195,12 +195,12 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,30
       <li class="header">MAIN NAVIGATION</li>
       <li>
         <a href="{{route('home')}}">
-          <i class="fa fa-dashboard"></i> <span>DasHBoard</span>
+          <i class="fa fa-dashboard"></i> <span>Dashboard</span>
         </a>
       </li>
     </ul>
   </section>
-<li><a href="http://youtube.test/"><i class="fa fa-laptop"></i> <span>WebSite</span></a></li>
+<li><a href="{{route('home')}}"><i class="fa fa-laptop"></i> <span>WebSite</span></a></li>
     
   <!-- /.sidebar -->
 </aside>

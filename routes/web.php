@@ -13,6 +13,7 @@
 
 Route::get('/', 'HomeController@index');
 
+
 Auth::routes();
 
 Route::middleware(['checkadmin'])->group(function () {

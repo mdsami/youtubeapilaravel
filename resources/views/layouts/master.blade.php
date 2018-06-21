@@ -200,7 +200,7 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,30
       </li>
     </ul>
   </section>
-<li><a href="{{route('home')}}"><i class="fa fa-laptop"></i> <span>WebSite</span></a></li>
+<li><a href="{{URL::to('/')}}"><i class="fa fa-laptop"></i> <span>WebSite</span></a></li>
     
   <!-- /.sidebar -->
 </aside>

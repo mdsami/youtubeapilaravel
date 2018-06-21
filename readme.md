@@ -61,7 +61,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## Admin Username 
  just seed db : php artisan db:seed
-User:admin@admin.com.
+
+Username :admin@admin.com.
 password:admin
 
 ## License

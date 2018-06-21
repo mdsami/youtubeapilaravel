@@ -53,6 +53,17 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## Laravel with embedded YouTube videos
+ Laravel with embedded YouTube videos. Videos that have more than 100k views will be public and videos with views <=100k user will need to login to watch. 
+ Also, visitor will be able to see video stats (view, likes, dislikes, comments ).
+ admin be can add videos from an admin panel 
+
+
+## Admin Username 
+ just seed db : php artisan db:seed
+User:admin@admin.com.
+password:admin
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

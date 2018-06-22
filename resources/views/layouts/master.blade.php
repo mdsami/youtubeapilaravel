@@ -55,37 +55,12 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,30
         <div class="navbar-custom-menu">
           <ul class="nav navbar-nav">
             <!-- Messages: style can be found in dropdown.less-->
-            <li class="dropdown messages-menu">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <i class="fa fa-envelope-o"></i>
-                <span class="label label-success">4</span>
-              </a>
-              <ul class="dropdown-menu">
-               
 
-              </ul>
-            </li>
             <!-- Notifications: style can be found in dropdown.less -->
-            <li class="dropdown notifications-menu">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <i class="fa fa-bell-o"></i>
-                <span class="label label-warning">10</span>
-              </a>
-              <ul class="dropdown-menu">
-                
-                <li>
-                  <!-- inner menu: contains the actual data -->
 
-                </li>
-                
-              </ul>
-            </li>
             <!-- Tasks: style can be found in dropdown.less -->
             <li class="dropdown tasks-menu">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <i class="fa fa-flag-o"></i>
-                <span class="label label-danger">9</span>
-              </a>
+
               <ul class="dropdown-menu">
                 
                 <li>
@@ -123,20 +98,7 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,30
           </p>
         </li>
         <!-- Menu Body -->
-        <li class="user-body">
-          <div class="row">
-            <div class="col-xs-4 text-center">
-              <a href="#">Followers</a>
-            </div>
-            <div class="col-xs-4 text-center">
-              <a href="#">Sales</a>
-            </div>
-            <div class="col-xs-4 text-center">
-              <a href="#">Friends</a>
-            </div>
-          </div>
-          <!-- /.row -->
-        </li>
+
         <!-- Menu Footer-->
         <li class="user-footer">
           <div class="pull-left">
@@ -176,18 +138,12 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,30
       </div>
       <div class="pull-left info">
         <p>{{ Auth::user()->name }}</p>
-        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        
       </div>
     </div>
     <!-- search form -->
     <form action="#" method="get" class="sidebar-form">
-      <div class="input-group">
-        <input type="text" name="q" class="form-control" placeholder="Search...">
-        <span class="input-group-btn">
-          <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-          </button>
-        </span>
-      </div>
+
     </form>
     <!-- /.search form -->
     <!-- sidebar menu: : style can be found in sidebar.less -->
@@ -198,9 +154,14 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,30
           <i class="fa fa-dashboard"></i> <span>Dashboard</span>
         </a>
       </li>
+      <li>
+        <a href="{{URL::to('/')}}"  target="_blank">
+          <i class="fa fa-laptop"></i> <span>WebSite</span>
+        </a>
+      </li>
     </ul>
   </section>
-<li><a href="{{URL::to('/')}}"  target="_blank"><i class="fa fa-laptop"></i> <span>WebSite</span></a></li>
+
     
   <!-- /.sidebar -->
 </aside>
@@ -214,7 +175,7 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,30
   <div class="pull-right hidden-xs">
     <b>Version</b> 2.4.0
   </div>
-  <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
+  <strong>Copyright &copy; 2018 <a href="#">Company</a>.</strong> All rights
   reserved.
 </footer>
 
